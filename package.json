@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://priyanshubasu2408.github.io/PlannEat",
+  "homepage": "https://github.com/abhay7532/PlannEats",
   "scripts": {
   "dev": "vite",
   "build": "vite build",
