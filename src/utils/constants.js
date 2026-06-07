@@ -1,4 +1,5 @@
 // Meal types for meal planning
+
 export const MEAL_TYPES = {
   BREAKFAST: 'breakfast',
   LUNCH: 'lunch',
