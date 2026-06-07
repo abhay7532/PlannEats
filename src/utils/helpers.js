@@ -1,6 +1,6 @@
 import { format, parse } from 'date-fns'
 
-// Format cooking time
+
 export const formatCookingTime = (minutes) => {
   if (!minutes) return 'N/A'
   
