@@ -10,7 +10,6 @@ import RecipeDetail from './pages/RecipeDetail'
 import Favorites from './pages/Favorites'
 import MealPlanner from './pages/MealPlanner'
 import NotFound from './pages/NotFound'
-
 function App() {
   return (
     <ThemeProvider>
