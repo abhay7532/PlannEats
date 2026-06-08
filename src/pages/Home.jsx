@@ -7,6 +7,7 @@ import RecipeList from '../components/recipe/RecipeList'
 import LoadingSpinner from '../components/common/LoadingSpinner'
 import { debounce } from '../utils/helpers'
 
+
 const Home = () => {
   const { recipes, loading, error, searchRecipes, getRandomRecipe, filterRecipes, clearRecipes } = useRecipes()
   const [hasSearched, setHasSearched] = useState(false)
