@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react'
 import { Search, Mic, X } from 'lucide-react'
 import { useVoiceSearch } from '../../hooks/useVoiceSearch'
 
+
 const SearchBar = ({ onSearch, onClear, placeholder = "Search recipes..." }) => {
   const [query, setQuery] = useState('')
   const [searchType, setSearchType] = useState('name')
