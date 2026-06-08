@@ -1,5 +1,6 @@
 import { AlertCircle, RefreshCw } from 'lucide-react'
 
+
 const ErrorMessage = ({ 
   message = 'Something went wrong', 
   onRetry = null,
