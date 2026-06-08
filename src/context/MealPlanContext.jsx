@@ -1,6 +1,7 @@
 import { createContext, useContext, useState, useEffect } from 'react'
 import { format, startOfWeek, addDays } from 'date-fns'
 
+
 const MealPlanContext = createContext()
 
 export const useMealPlan = () => {
