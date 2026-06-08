@@ -6,6 +6,7 @@ import { useFavorites } from '../context/FavoritesContext'
 import { MEAL_TYPES, DAYS_OF_WEEK } from '../utils/constants'
 import { formatDayDate } from '../utils/helpers'
 
+
 const MealPlanner = () => {
   const [currentWeek, setCurrentWeek] = useState(startOfWeek(new Date(), { weekStartsOn: 1 }))
   const [showAddMealModal, setShowAddMealModal] = useState(false)
