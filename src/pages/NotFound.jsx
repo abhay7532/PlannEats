@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
 import { Home, Search, ChefHat } from 'lucide-react'
 
+
 const NotFound = () => {
   return (
     <div className="page-container">
