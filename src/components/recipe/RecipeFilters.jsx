@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { ChevronDown, Filter, X, Leaf, Utensils } from 'lucide-react'
 import { RECIPE_CATEGORIES, CUISINE_AREAS, DIET_TYPES, CALORIE_RANGES } from '../../utils/constants'
 
+
 const RecipeFilters = ({ onFilterChange, onClearFilters }) => {
   const [isOpen, setIsOpen] = useState(false)
   const [filters, setFilters] = useState({
