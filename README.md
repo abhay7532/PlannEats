@@ -1,88 +1,37 @@
-```markdown
-# 🍽️ PlannEats - Recipe Finder & Meal Planner
+# 🍽️ PlannEats - Smart Recipe Finder & Meal Planner
 
 <p align="center">
-  <strong>Discover delicious recipes, save your favorites, and organize your weekly meals—all in one place.</strong>
+  <strong>Plan your meals, discover delicious recipes, and organize your weekly diet with ease.</strong>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/React-19-blue?logo=react" />
-  <img src="https://img.shields.io/badge/Vite-Fast-purple?logo=vite" />
-  <img src="https://img.shields.io/badge/TailwindCSS-3.x-38BDF8?logo=tailwindcss" />
-  <img src="https://img.shields.io/badge/JavaScript-ES6-yellow?logo=javascript" />
-  <img src="https://img.shields.io/badge/License-MIT-green" />
+  <img src="https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=white" />
+  <img src="https://img.shields.io/badge/Vite-Build-646CFF?logo=vite&logoColor=white" />
+  <img src="https://img.shields.io/badge/TailwindCSS-38BDF8?logo=tailwindcss&logoColor=white" />
+  <img src="https://img.shields.io/badge/JavaScript-ES6-F7DF1E?logo=javascript&logoColor=black" />
+  <img src="https://img.shields.io/badge/Responsive-Yes-success" />
 </p>
 
 ---
 
 ## 📖 About
 
-PlannEats is a modern recipe discovery and meal planning web application that helps users search recipes, explore cuisines, save favorites, and organize meals for the week.
+**PlannEats** is a modern web application that helps users discover recipes, save their favorites, and organize weekly meal plans through a clean and responsive interface.
 
-The application provides an intuitive user experience with a clean interface, responsive design, and powerful search functionality.
+Whether you're planning your weekly diet or looking for your next favorite dish, PlannEats makes meal planning simple and enjoyable.
 
 ---
 
 ## ✨ Features
 
-- 🔍 Search recipes by name or ingredients
-- 🍽 Browse recipes from multiple cuisines
+- 🔍 Search recipes instantly
+- 🍽 Browse recipes by category
 - ❤️ Save favorite recipes
 - 📅 Weekly meal planner
-- 📤 Export meal plans
-- 🌙 Light/Dark Mode
+- 🌙 Beautiful Dark Mode
 - 📱 Fully Responsive Design
-- ⚡ Fast performance using Vite
-- 🎲 Surprise Me feature
-- 🎯 Recipe Filters
-
----
-
-# 📸 Screenshots
-
-## 🏠 Home Page
-
-![Home](./images/home.png)
-
----
-
-## 📅 Meal Planner
-
-![Meal Planner](./images/meal planner.png)
-
----
-
-## ❤️ Favorites
-
-![Favorites](./images/favourite.png)
-
----
-
-## 🌙 Dark Mode
-
-![Dark Mode](./images/dark mode.png)
-
-## 🏠 Home Page
-
-![Home](./screenshots/home.png)
-
----
-
-## 🔍 Recipe Search
-
-![Recipes](./screenshots/recipes.png)
-
----
-
-## 📅 Meal Planner
-
-![Meal Planner](./screenshots/meal-planner.png)
-
----
-
-## ❤️ Favorite Recipes
-
-![Favorites](./screenshots/favorites.png)
+- ⚡ Lightning-fast performance
+- 🎯 Clean and intuitive UI
 
 ---
 
@@ -92,93 +41,109 @@ The application provides an intuitive user experience with a clean interface, re
 |------------|---------|
 | React | Frontend |
 | Vite | Build Tool |
-| JavaScript | Programming Language |
+| JavaScript (ES6+) | Programming Language |
 | Tailwind CSS | Styling |
-| React Router | Routing |
-| Axios | API Requests |
-| React Icons | Icons |
+| React Router | Navigation |
 | Local Storage | Save Favorites & Meal Plans |
+
+---
+
+# 📸 Application Preview
+
+<table align="center">
+<tr>
+<td align="center">
+<b>🏠 Home Page</b><br><br>
+<img src="./images/home.png" width="450"/>
+</td>
+
+<td align="center">
+<b>📅 Meal Planner</b><br><br>
+<img src="./images/meal planner.png" width="450"/>
+</td>
+</tr>
+
+<tr>
+<td align="center">
+<b>❤️ Favorites</b><br><br>
+<img src="./images/favourite.png" width="450"/>
+</td>
+
+<td align="center">
+<b>🌙 Dark Mode</b><br><br>
+<img src="./images/dark mode.png" width="450"/>
+</td>
+</tr>
+</table>
 
 ---
 
 # 📂 Project Structure
 
-```
-
-PlannEats
+```text
+PlannEats/
 │
+├── images/
 ├── public/
 ├── src/
 │   ├── assets/
 │   ├── components/
-│   ├── pages/
-│   ├── hooks/
 │   ├── context/
+│   ├── hooks/
+│   ├── pages/
 │   ├── services/
 │   ├── App.jsx
 │   └── main.jsx
 │
-├── screenshots/
 ├── package.json
+├── vite.config.js
 └── README.md
-
-````
+```
 
 ---
 
-# ⚙️ Installation
+# 🚀 Getting Started
 
-Clone the repository
+## Clone the Repository
 
 ```bash
 git clone https://github.com/abhay7532/PlannEats.git
-````
+```
 
-Move into the project
+## Navigate to the Project
 
 ```bash
 cd PlannEats
 ```
 
-Install dependencies
+## Install Dependencies
 
 ```bash
 npm install
 ```
 
-Run locally
+## Start Development Server
 
 ```bash
 npm run dev
 ```
 
-Build for production
+Open your browser and visit:
 
-```bash
-npm run build
+```
+http://localhost:5173
 ```
 
 ---
 
-# 🚀 Usage
+# 💡 Future Enhancements
 
-1. Search recipes by keyword.
-2. Browse recipe categories.
-3. Save recipes to Favorites.
-4. Plan meals for each day of the week.
-5. Export your meal planner.
-
----
-
-# 🌟 Upcoming Features
-
-* 🔐 User Authentication
-* ☁ Cloud Sync
-* 🛒 Grocery List Generator
-* 🤖 AI Meal Recommendations
-* 📊 Nutrition Analytics
-* 📱 Progressive Web App (PWA)
-* 📆 Monthly Meal Planner
+- 🔐 User Authentication
+- ☁ Cloud Sync
+- 🛒 Grocery List Generator
+- 🤖 AI Meal Recommendations
+- 📊 Nutrition Tracking
+- 📱 Progressive Web App (PWA)
 
 ---
 
@@ -193,13 +158,13 @@ Contributions are welcome!
 git checkout -b feature-name
 ```
 
-3. Commit changes
+3. Commit your changes
 
 ```bash
 git commit -m "Add new feature"
 ```
 
-4. Push
+4. Push your branch
 
 ```bash
 git push origin feature-name
@@ -209,24 +174,23 @@ git push origin feature-name
 
 ---
 
-# 👨‍💻 Author
+# 👨‍💻 Developer
 
 **Abhay Verma**
 
-* GitHub: https://github.com/abhay7532
-* LinkedIn: https://www.linkedin.com/in/linkwthabhay/
+- 💼 LinkedIn: https://www.linkedin.com/in/linkwthabhay/
+- 🐙 GitHub: https://github.com/abhay7532
 
 ---
 
 ## ⭐ Support
 
-If you found this project useful, consider giving it a ⭐ on GitHub.
+If you like this project, don't forget to **star ⭐ the repository**.
 
-It motivates me to build more amazing projects!
+It motivates me to build more open-source projects.
 
 ---
 
 <p align="center">
-Made with ❤️ using React + Vite
+Made with ❤️ using React, Vite & Tailwind CSS
 </p>
-```
